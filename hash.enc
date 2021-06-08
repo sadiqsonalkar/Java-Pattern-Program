@@ -1,0 +1,25 @@
+import java.io.PrintStream;
+
+class HashPattern
+{
+  HashPattern() {}
+  
+  public static void main(String[] paramArrayOfString) 
+  {
+    java.util.Scanner localScanner = new java.util.Scanner(System.in);
+    
+    System.out.print("Enter no. of rows : ");
+    
+    int i = localScanner.nextInt();
+    
+    for (int j = 0; j < i; j++)
+    {
+      for (int k = i; k > j; k--)
+      {
+        System.out.print("#\t");
+      }
+      
+      System.out.println();
+    }
+  }
+}
