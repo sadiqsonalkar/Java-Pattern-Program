@@ -1,6 +1,5 @@
 # Java-Pattern-Program
 
-# Java Pattern Program
 1. Arc
 2. BufferReader
 3. Fish
